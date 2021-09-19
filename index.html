@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <title> CSK-MI MATCH</title>
+    <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
 </head>
 <body>
-<iframe src='https://embedstream.me/chennai-super-kings-vs-mumbai-indians-stream-1' width='720px' height='720px'
-        scrolling='yes' frameborder='2px'  allowtransparency ></iframe>
+<iframe src='https://embedstream.me/chennai-super-kings-vs-mumbai-indians-stream-1' frameborder="0" scrolling="no" onload="resizeIframe(this)" allowtransparency ></iframe>
 </body>
 </html>
